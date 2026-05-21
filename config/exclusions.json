@@ -1,0 +1,41 @@
+{
+  "_comment": "Tokens to exclude from the trending pool BEFORE analysis. Hot-updateable without touching skill code. Add new stablecoins, wrappers, or known scams here.",
+  "stablecoins": [
+    "USDC",
+    "USDT",
+    "USD1",
+    "DAI",
+    "FDUSD",
+    "USDS",
+    "PYUSD",
+    "USDe",
+    "USDY",
+    "TUSD"
+  ],
+  "wrapped_majors": [
+    "SOL",
+    "wSOL",
+    "WSOL",
+    "cbBTC",
+    "wBTC",
+    "WBTC",
+    "WETH",
+    "ETH"
+  ],
+  "lst_lending": [
+    "jlUSDC",
+    "jitoSOL",
+    "mSOL",
+    "bSOL",
+    "INF",
+    "JitoSOL",
+    "LST",
+    "stSOL",
+    "scnSOL"
+  ],
+  "manual_block": [],
+  "_notes": {
+    "manual_block": "Use this list to block specific tokens by ticker or mint address. Useful for known scams, rugged tokens, or tokens that keep appearing despite filter rules.",
+    "matching": "Matching is case-insensitive on ticker. Duplicate tickers across different mint addresses are handled separately by keeping only the highest-volume instance."
+  }
+}
